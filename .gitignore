@@ -1,0 +1,53 @@
+# Ignorar los archivos generados por PHPUnit
+.phpunit.cache
+.phpunit.result.cache
+
+# Ignorar la carpeta de dependencias de Composer
+/vendor
+
+# Ignorar el archivo de configuración de entorno
+.env
+
+# Ignorar el archivo de respaldo del archivo de configuración de entorno
+.env.backup
+
+# Ignorar archivos generados por Homestead
+Homestead.json
+Homestead.yaml
+
+# Ignorar el archivo de configuración de autenticación de Composer (si lo tienes)
+auth.json
+
+# Ignorar archivos generados por Node.js
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignorar los archivos generados por Laravel Mix
+/public/build
+/public/hot
+
+# Ignorar archivos generados por Laravel Passport (si los tienes)
+/storage/*.key
+
+# Ignorar archivos generados por Laravel Telescope (si los tienes)
+.telescope
+
+# Ignorar archivos generados por Laravel Sail (si los usas)
+/vendor/bin/sail
+docker-compose.yml
+docker-compose.prod.yml
+docker-compose.test.yml
+docker
+
+# Ignorar archivos generados por Laravel Forge (si los usas)
+.fleet
+
+# Ignorar archivos generados por IDEs como PHPStorm (puedes personalizar esto)
+/.idea
+/.vscode
+
+# Ignorar archivos o directorios específicos que desees excluir (agrega más líneas según sea necesario)
+# /carpeta-a-ignorar
+# archivo-a-ignorar.ext
+
